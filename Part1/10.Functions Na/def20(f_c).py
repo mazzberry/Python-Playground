@@ -1,0 +1,8 @@
+#first class
+
+#1: CAN BE CREATED AT RUNTIME
+#2: CAN BE
+#3: CAN BE
+#4: CAN BE
+#5: CAN BE
+#6:CAN HAVE

@@ -5,4 +5,4 @@ perfectSquar = lambda num : num ** 2
 
 
 
-print(perfectSquar(2))
+print(perfectSquar(4))
