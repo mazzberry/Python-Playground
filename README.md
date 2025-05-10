@@ -1,106 +1,74 @@
 
-# Go Playground
+# Python Playground
 
-This repository serves as a comprehensive collection of Go (Golang) code examples, organized to facilitate learning and experimentation with various Go programming concepts.
-It is designed for beginners and intermediate developers seeking to deepen their understanding of Go through practical examples.
+This repository is a personal Python learning archive featuring a variety of exercises, homework assignments, and mini-projects.
+It is intended to reinforce understanding of core Python concepts through structured practice and experimentation.
 
 ## Table of Contents
 
 - [Overview](#overview)
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
+- [Requirements](#requirements)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Overview
 
-The **Go Playground** repository encompasses a wide range of Go programming topics, including but not limited to:
+The **Python Playground** includes:
 
-- Basic and Composite Data Types
-- Variables and Constants
-- Control Structures (Loops, If-Else, Switch)
-- Functions and Methods
-- Interfaces and Type Embedding
-- Error Handling
-- Type Conversion
-- Concurrency (Goroutines)
+- Basic Python programming (syntax, variables, loops, conditionals)
+- Functions and modules
+- Object-Oriented Programming (OOP)
+- Error handling and return types
+- Asynchronous programming (`async/await`)
+- Practical use cases and course homework
+- A basic expense tracking project
 
-Each topic is encapsulated in its own directory, containing relevant Go files that demonstrate the concept in a clear and concise manner.
+The repository reflects a hands-on approach to learning Python by doing.
 
 ## Project Structure
 
-The repository is organized into the following directories:
-
-- `00.basicDataTypes/`
-- `01.basicOperations/`
-- `02.Values/`
-- `03.Variables/`
-- `04.Constants/`
-- `05.Loops/`
-- `06.If_else_Switch/`
-- `10.Functions/`
-- `11.Packages/`
-- `12.Methods/`
-- `13.Interface/`
-- `14.TypeEmbeding/`
-- `15.ErrorHandling/`
-- `16.Conversion/`
-- `17.Concurrency/`
-- `train/`
-
-Each directory contains Go files (`.go`) that illustrate specific concepts, complete with comments and examples to aid understanding.
+- `Part1/` - Introduction and basics
+- `part2/` to `part4/` - Continued learning exercises
+- `part5/ASYNC/` - Asynchronous programming examples
+- `Homeworks/` & `Homeworks2/` - Exercises and solutions from assignments
+- `ExpenseProj/` - A small project for managing expenses
+- `return/` - Experiments related to Python return statements and functions
 
 ## Getting Started
 
-To explore and run the examples in this repository, follow these steps:
+To get started with the code:
 
-1. **Clone the Repository**
+```bash
+git clone https://github.com/mazzberry/Python-Playground.git
+cd Python-Playground
+```
 
-   ```bash
-   git clone https://github.com/mazzberry/Go-Playground.git
-   cd Go-Playground
-   ```
+Navigate to any directory and run Python files:
 
-2. **Navigate to a Topic Directory**
+```bash
+cd Part1
+python lesson1.py
+```
 
-   ```bash
-   cd 00.basicDataTypes
-   ```
+## Requirements
 
-3. **Run the Go File**
+- Python 3.8 or newer
+- No third-party packages are required for most examples
 
-   ```bash
-   go run main.go
-   ```
-
-Ensure that you have Go installed on your system. You can download it from the [official Go website](https://golang.org/dl/).
+You can install Python from the [official website](https://www.python.org/downloads/).
 
 ## Contributing
 
-Contributions are welcome! If you have examples to add or improvements to suggest, feel free to fork the repository and submit a pull request.
+Contributions are welcome! If you have ideas, improvements, or new examples to add:
 
-1. **Fork the Repository**
-
-2. **Create a New Branch**
-
-   ```bash
-   git checkout -b feature/YourFeature
-   ```
-
-3. **Commit Your Changes**
-
-   ```bash
-   git commit -m "Add your feature"
-   ```
-
-4. **Push to Your Fork**
-
-   ```bash
-   git push origin feature/YourFeature
-   ```
-
-5. **Submit a Pull Request**
+1. Fork the repo
+2. Create a new branch (`git checkout -b feature-name`)
+3. Commit your changes (`git commit -am 'Add feature'`)
+4. Push the branch (`git push origin feature-name`)
+5. Open a Pull Request
 
 ## License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This repository is open-sourced under the MIT License.
