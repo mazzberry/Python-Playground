@@ -3,6 +3,7 @@
 
 a = 3
 def add_1():
+    #variable hay global
     global a
     a = a + 2
     
