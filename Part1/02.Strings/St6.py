@@ -15,9 +15,9 @@ print (message_1)
 age = input("how old are u :")
 name = input("what's ur name :")
 
-lastName = input("and! last lastname??? : ")
+lastName = input("and! last lastname? : ")
 
-message = (f" ur name is {name} and ur lastname is {lastName} and you're  {age} yearold") 
+message = (f" ur name is {name} and ur lastname is {lastName} and you're  {age} yearsold") 
 
 print(message.capitalize()) # (variable.capitalize()) harf aval ro bozorg mikone.
 
@@ -31,6 +31,7 @@ print(jomle_1)
 print(jomle_2)
 
 #__________________________
+#fstrings
 
 name = 'Amirhossein'
 job = 'Developer'
