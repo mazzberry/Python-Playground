@@ -15,8 +15,10 @@ class hendese:
         return f'mohit barabar ast ba : ',(self.radius**2)*3.14
     
 test = hendese(8) 
-print(test.circle_area())
-print(test.circle_env())
+
+if __name__ =="__main__":
+    print(test.circle_area())
+    print(test.circle_env())
 
         
         
